@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js" defer></script>
+</head>
+
+<body class="w3-black">
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <!-- Avatar image in top left corner --><!-- 
+        <img src="gallery/g3.jpg" style="width:100%"> -->
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+        </a>
+        <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-eye w3-xxlarge"></i>
+            <p>PHOTOS</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>CONTACT</p>
+        </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+        <!-- Header/Home -->
+        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+            <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> John Isabelo Aldeguer</h1>
+            <p>Web Designer, C# Programmer and Data Analyst</p>
+            <img src="gallery/g3.jpg" alt="boy" class="w3-image" width="355" height="500">
+        </header>
+
+        <!-- About Section -->
+        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+            <h2 class="w3-text-light-grey">My Name</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <p>Hello everyone! My name is John Isabelo Aldeguer.</p>
+            <p>
+                I hold an Advanced Diploma in IT: Innovation and Design from Conestoga College.
+                Following my studies, I pursued certifications,
+                becoming an IBM Data Analyst Professional and earning the Microsoft Certified: Azure AI Fundamentals
+                credential from NPower Canada.
+            </p>
+            <p>
+                I possess a strong foundation in programming languages such as C#, and JavaScript,
+                as well as technologies like Web Development, Databases, and
+                Collaboration and Productivity Tools (Jira, Trello, Microsoft Teams).
+                I am eager to contribute my skills to innovative projects, demonstrating proficiency in
+                communication,
+                problem-solving, and teamwork.
+            </p>
+            <p>
+                I am particularly passionate about leveraging technology to drive innovation and enhance user
+                experiences.
+                I am eager to explore emerging technologies, contribute to cutting-edge projects,
+                and actively participate in the ever-evolving IT industry.
+                I am enthusiastic, motivated, and ready to embark on a rewarding professional journey.
+            </p>
+            <p>
+                I look forward to connecting with professionals in the field, engaging in meaningful discussions,
+                and seeking opportunities to contribute and grow.
+                Please feel free to reach out to me for any collaborations, networking opportunities, or discussions
+                related to IT, innovation, or design.
+                I am excited to connect with like-minded professionals and make a positive impact in the IT realm.
+            </p>
+            <p>
+                Thank you for your time, and I look forward to connecting with you all!
+            </p>
+
+            <!-- Grid for my projects -->
+            <br><h3 class="w3-padding-16 w3-text-light-grey">My Projects</h3>
+            <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half w3-margin-bottom">
+                    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                        <li class="w3-dark-grey w3-xlarge w3-padding-32">Restaurant E-Commerce Website</li>
+                        <li class="w3-padding-16">This is our capstone project in IT: Innovation and Design.
+                            We have developed an e-commerce website primarily focused on restaurants.
+                            Our goal is to assist our clients in tracking online orders,
+                            particularly those received through social media platforms such as Facebook and Instagram.
+                            Additionally, our clients expressed a need for better delivery tracking.
+                            To address these challenges, our team has built a comprehensive website aimed
+                            at solving their problems and increasing their productivity.
+
+                            <br>We utilized ASP.NET Core MVC to develop the website and MySQL for our database.
+                            Throughout our process, we utilized Figma to create the design of our website.
+                        </li>
+                        <li class="w3-light-grey w3-padding-24">
+                            <button class="w3-button w3-white w3-padding-large w3-hover-black" id="myButton">GitHub
+                                Link</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w3-half">
+                    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                        <li class="w3-dark-grey w3-xlarge w3-padding-32">Game Project using Monogame</li>
+                        <li class="w3-padding-16">This marks the culmination of our work on the 
+                            Final Project for PROG2370 - Game Programming. Our task is to develop a game using MonoGame, 
+                            ensuring adherence to specified requirements to achieve high marks. 
+                            Additionally, we are required to create an executable program to launch the game instantly.
+                           <br>We utilize MonoGame for this project, 
+                           an open-source framework that facilitates cross-platform game development 
+                           and serves as a successor to Microsoft's XNA framework.</li>
+                        <li class="w3-light-grey w3-padding-24">
+                            <button class="w3-button w3-white w3-padding-large w3-hover-black" id="myButton2">GitHub Link</button>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Grid/My Projects -->
+            </div>
+            <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half w3-margin-bottom">
+                    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                        <li class="w3-dark-grey w3-xlarge w3-padding-32">Game Project using Unity</li>
+                        <li class="w3-padding-16">This marks the culmination of our efforts on the INFO3140 - Systems Development Game Design project. 
+                            Building upon the foundation laid in the previous assignment, 
+                            our current objective is to enhance our project to meet the latest set of requirements. 
+                            Our primary goal is to create an executable file using the Unity Engine, 
+                            ensuring a seamless experience when running the game.
+                        </li>
+                        <li class="w3-light-grey w3-padding-24">
+                            <button class="w3-button w3-white w3-padding-large w3-hover-black" id="myButton3">GitHub
+                                Link</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w3-half">
+                    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                        <li class="w3-dark-grey w3-xlarge w3-padding-32">Game Project using Monogame</li>
+                        <li class="w3-padding-16">This serves as our VR Build assignment for PROG2410 - Digital Motion and Sound. 
+                            Our objective is to construct a 360-degree version accessible through a Thesasys link. 
+                            Each of us is responsible for creating our own render scene, 
+                            and achieving high marks requires adherence to specific requirements</li>
+                        <li class="w3-light-grey w3-padding-24">
+                            <button class="w3-button w3-white w3-padding-large w3-hover-black" id="myButton4">Thesasys 360 View</button>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Grid/My Projects -->
+            </div>
+            <!-- End About Section -->
+        </div>
+
+        <!-- Portfolio Section -->
+        <div class="w3-padding-64 w3-content" id="photos">
+            <h2 class="w3-text-light-grey">My Photos</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <!-- Grid for photos -->
+            <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half">
+                    <img src="gallery/c1.jpg" style="width:100%" title="UFCR group volunteering at Ray of Hope">
+                    <img src="gallery/p2.jpg" style="width:100%" title="Me at Canada's Wonderland">
+                    <img src="gallery/p3.jpg" style="width:100%" title="Me at Canada's Wonderland">
+                    <img src="gallery/g2.jpg" style="width:100%" title="Casual Graduation Photo">
+                </div>
+
+                <div class="w3-half">
+                    <img src="gallery/f1.jpg" style="width:100%" title="Me and my Family">
+                    <img src="gallery/f3.jpg" style="width:100%" title="Me and my Friends">
+                    <img src="gallery/g1.jpg" style="width:100%" title="Graudation Photo">
+                </div>
+                <!-- End photo grid -->
+            </div>
+            <!-- End Portfolio Section -->
+        </div>
+
+        <!-- Contact Section -->
+        <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+            <h2 class="w3-text-light-grey">Contact Me</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Kitchener, Ontario</p>
+                <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 519 - 897 - 0432</p>
+                <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: john.isabelo@yahoo.com</p>
+                <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: johnisabelo03@gmail.com</p>
+            </div><br>
+            <p>Let's get in touch. Send me a message:</p>
+
+            <form id="contactForm" target="_blank">
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+                <p>
+                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </p>
+            </form>
+            <!-- End Contact Section -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/ConankunD3idara/" target="_blank" title="Facebook">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            </a>
+        
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/john_shinichi/" target="_blank" title="Instagram">
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+            </a>
+        
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/john-isabelo-aldeguer/" target="_blank" title="LinkedIn">
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </a>
+
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/channel/UC5-A1Ag63MEA4nKba77QRGA" target="_blank" title="YouTube">
+                <i class="fa fa-youtube w3-hover-opacity"></i>
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/15198970432" target="_blank" title="WhatsApp">
+                <i class="fa fa-whatsapp w3-hover-opacity"></i>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/john-isabelo" target="_blank" title="GitHub">
+                <i class="fa fa-github w3-hover-opacity"></i>
+            </a>
+            <!-- End footer -->
+        </footer>
+
+        <!-- END PAGE CONTENT -->
+
+        <script src="script/script.js"></script>
+    </div>
+
+</body>
+
+</html>
